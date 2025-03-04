@@ -5,11 +5,11 @@ from sqlalchemy.exc import SQLAlchemyError
 from clean_data import trans_df
 
 # Database configuration
-host_db = "localhost"
-port_db = 3306
-user_db = "root"
-password_db = 2406
-scmaname_db = "frauds_db"
+host_db = ""   # Input your host
+port_db =      # Input your port
+user_db = ""   # Input your user
+password_db =  # Input your password
+scmaname_db = "frauds_db" 
 tablname_db = "transactions"
 insert_db = pd.DataFrame(trans_df)
 
